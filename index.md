@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # About BOSS
 In many real world optimisation problems evaluating the objective function(s) is expensive, perhaps requiring days of computation for a single evaluation. Surrogate-assisted optimisation attempts to alleviate this problem by employing computationally cheap 'surrogate' models to estimate the objective function(s) or the ranking relationships of the candidate solutions.
 
@@ -36,7 +32,3 @@ We also welcome proposals for short demonstrations or presentations (5-10 minute
 
 Enquiries and Suggestions
 If you have any enquiries or suggestions about BOSS, please send us an email.
-
-```
-The final element.
-```
