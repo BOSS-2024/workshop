@@ -3,4 +3,4 @@ remote_theme: pages-themes/modernist@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: BOSS - PPSN workshop 2024
-description: <b>B</b>ayesian and Surr<b>o</b>gate A<b>s</b>sisted <b>S</b>earch and Optimisation - PPSN workshop 2024
+description: <b>B</b>ayesian and surr<b>O</b>gate a<b>S</b>sisted <b>S</b>earch and Optimisation - PPSN workshop 2024
