@@ -33,7 +33,7 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="javascript:void(0);" onclick="loadContent(site.github.organisers_url)"About the <strong>Organisers</strong></a></li> 
+          <li><a href="javascript:void(0);" onclick="loadMarkdown( site.github.organisers_url)">About the <strong>Organisers</strong></a></li> 
           <li><a href="{{ site.github.call_url }}">Call for <strong>Papers</strong></a></li> 
           <li><a href="{{ site.github.ppsn_url }}">Link to <strong>PPSN</strong></a></li>
         </ul>
@@ -52,21 +52,22 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-function loadContent(url) {
+function loadMarkdown(url) {
   fetch(url)
-    .then(response => {
-      if (!response.ok) {
-          throw new Error('Network response was not ok');
-      }
-      return response.text();
+    .then(response => response.text())
+    .then(markdown => {
+      // Convert the markdown to HTML here
+      const html = convertMarkdownToHtml(markdown);
+      document.getElementById('markdown-content').innerHTML = html;
     })
-    .then(html => {
-      document.getElementById('content-area').innerHTML = html;
-    })
-    .catch(error => {
-      console.error('There has been a problem with your fetch operation:', error);
-    });
+    .catch(error => console.error('Error fetching markdown:', error));
 }
+<script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+function convertMarkdownToHtml(markdown) {
+  const converter = new showdown.Converter();
+  return converter.makeHtml(markdown);
+}
+
 </script>
 
   </body>
