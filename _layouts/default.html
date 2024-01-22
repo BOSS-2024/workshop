@@ -61,9 +61,11 @@ function loadMarkdown(url) {
       document.getElementById('markdown-content').innerHTML = html;
     })
     .catch(error => console.error('Error fetching markdown:', error));
-}
+} 
+</script>
 <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
-function convertMarkdownToHtml(markdown) {
+<script>
+    function convertMarkdownToHtml(markdown) {
   const converter = new showdown.Converter();
   return converter.makeHtml(markdown);
 }
