@@ -33,14 +33,14 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="{{ site.github.organisers_url }}">About the <strong>Organisers</strong></a></li> 
+          <li><a href="javascript:void(0);" onclick="loadContent(site.github.organisers_url)"About the <strong>Organisers</strong></a></li> 
           <li><a href="{{ site.github.call_url }}">Call for <strong>Papers</strong></a></li> 
           <li><a href="{{ site.github.ppsn_url }}">Link to <strong>PPSN</strong></a></li>
         </ul>
         {% endif %}
         <p class="view"><a href="{{ site.github.owner_url }}">Important Dates</a></p>
       </header>
-<section>
+<section id="content-area">
   {{ content }}
 </section>
       <footer>
@@ -51,5 +51,23 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+function loadContent(url) {
+  fetch(url)
+    .then(response => {
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then(html => {
+      document.getElementById('content-area').innerHTML = html;
+    })
+    .catch(error => {
+      console.error('There has been a problem with your fetch operation:', error);
+    });
+}
+</script>
+
   </body>
 </html>
