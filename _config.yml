@@ -6,6 +6,7 @@ title: BOSS - PPSN workshop 2024
 description: <b>B</b>ayesian and surr<b>O</b>gate a<b>S</b>sisted <b>S</b>earch and Optimisation - PPSN workshop 2024
 show_downloads: true
 logo: /assets/img/logo.png
-organisers_url: /organisers.md
-call_url: /call.md
-ppsn_url: https://ppsn2024.fh-ooe.at/
+github:
+  organisers_url: /organisers.md
+  call_url: /call.md
+  ppsn_url: https://ppsn2024.fh-ooe.at/
