@@ -1,9 +1,11 @@
+
 <div class="menu-bar">
     <a href="./index.md">Home</a> - 
     <a href="./organisers.md">Organisers</a> - 
     <a href="./call.md">Call for Papers</a>
 </div>
 
+---
 
 # About BOSS
 In many real world optimisation problems evaluating the objective function(s) is expensive, perhaps requiring days of computation for a single evaluation. Surrogate-assisted optimisation attempts to alleviate this problem by employing computationally cheap 'surrogate' models to estimate the objective function(s) or the ranking relationships of the candidate solutions.
