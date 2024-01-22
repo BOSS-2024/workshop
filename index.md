@@ -26,7 +26,7 @@ Despite recent successes in using surrogate-assisted evolutionary optimisation, 
 
 
 
-## The call for involvement
+## Call for papers
 
 We invite short papers of up to 8 pages (excluding references) presenting novel developments in one or more of these areas, or other areas relevant to surrogate-assisted evolutionary optimisation. We welcome position papers of up to 2 pages (including references) showcasing exciting exploratory and preliminary results.
 
