@@ -1,6 +1,6 @@
 
 <div class="menu-bar">
-    <a href="./index.md">Home</a> - 
+    <a href="https://kentwar.github.io/BOSS2024/">Home</a> - 
     <a href="./organisers.md">Organisers</a> - 
     <a href="./call.md">Call for Papers</a>
 </div>
