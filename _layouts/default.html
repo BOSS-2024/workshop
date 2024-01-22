@@ -33,16 +33,16 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="javascript:void(0);" onclick="loadContent('{{ site.github.organisers_url }}')">About the <strong>Organisers</strong></a></li> 
+          <li><a href="{{ site.github.organisers_url }}">About the <strong>Organisers</strong></a></li> 
           <li><a href="{{ site.github.call_url }}">Call for <strong>Papers</strong></a></li> 
           <li><a href="{{ site.github.ppsn_url }}">Link to <strong>PPSN</strong></a></li>
         </ul>
         {% endif %}
         <p class="view"><a href="{{ site.github.owner_url }}">Important Dates</a></p>
       </header>
-<div id="dynamic-content">
+<section>
   {{ content }}
-</div>
+</section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -51,15 +51,5 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-<script>
-function loadDynamicContent(url) {
-  fetch(url)
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('dynamic-content').innerHTML = data;
-    })
-    .catch(error => console.error('Error loading content:', error));
-}
-</script>
   </body>
 </html>
