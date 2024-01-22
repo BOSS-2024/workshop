@@ -95,7 +95,7 @@ end
 ### Small image
 
 ![PPSN](https://github.com/kentwar/BOSS2024/blob/main/PPSNlogo.png)
-<img src="https://github.com/kentwar/BOSS2024/blob/main/PPSNlogo.png" width="50" height="50">
+<img src="https://github.com/kentwar/BOSS2024/blob/main/PPSNlogo.png" width="300" height="130">
 
 ### Definition lists can be used with HTML syntax.
 
