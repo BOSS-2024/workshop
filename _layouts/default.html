@@ -40,11 +40,9 @@
         {% endif %}
         <p class="view"><a href="{{ site.github.owner_url }}">Important Dates</a></p>
       </header>
-      <section id="content-area">
-
-      {{content}}
-
-      </section>
+<div id="dynamic-content">
+  {{ content }}
+</div>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -53,11 +51,14 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script>
-   function loadContent(url) {
-  // Assuming you're using an iframe
-  var contentArea = document.getElementById('content-area');
-  contentArea.innerHTML = '<iframe src="' + url + '" style="width:100%; height:600px;"></iframe>';
+<script>
+function loadDynamicContent(url) {
+  fetch(url)
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('dynamic-content').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading content:', error));
 }
 </script>
   </body>
