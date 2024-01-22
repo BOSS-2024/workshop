@@ -53,5 +53,12 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+function loadContent(url) {
+  // Assuming you're using an iframe
+  var contentArea = document.getElementById('content-area');
+  contentArea.innerHTML = '<iframe src="' + url + '" style="width:100%; height:600px;"></iframe>';
+}
+</script>
   </body>
 </html>
