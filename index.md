@@ -5,23 +5,27 @@ Bayesian Optimisation, and Surrogate-assisted approaches more generally, have be
 
 Despite recent successes in using surrogate-assisted evolutionary optimisation, there remain many challenges. The Workshop on Bayesian and surrOgate aSsisted Search and Optimisation (BOSS) to be held at PPSN 2024 in Hagenberg, Austria, aims to promote the research on Bayesian Optimisation and surrogate-assisted optimisation, particularly those that take inspiration from nature. Topics of interest include (but are not limited to):
 
-```
-* Bayesian optimisation.
-* Advanced machine learning techniques for constructing surrogates
-* Model management in surrogate-assisted optimisation
-* Multi-level, multi-fidelity surrogates
-* Complexity and efficiency of surrogate-assisted methods
-* Small and big data-driven evolutionary optimisation
-* Model approximation in dynamic, robust and multi-modal optimisation
-* Model approximation in multi- and many-objective optimisation
-* Surrogate-assisted evolutionary optimisation of high-dimensional problems
-* Comparison of different modelling methods in surrogate construction
-* Surrogate-assisted identification of the feasible region
-* Comparison of evolutionary and non-evolutionary approaches with surrogate models
-* Test problems for surrogate-assisted evolutionary optimisation
-* Performance improvement techniques in surrogate-assisted evolutionary computation
-* Performance assessment of surrogate-assisted evolutionary algorithms
-```
+<ul style="background-color: #f0f0f0;">
+    <li>Bayesian optimisation.</li>
+    <li>Advanced machine learning techniques for constructing surrogates</li>
+    <li>Model management in surrogate-assisted optimisation</li>
+    <li>Multi-level, multi-fidelity surrogates</li>
+    <li>Complexity and efficiency of surrogate-assisted methods</li>
+    <li>Small and big data-driven evolutionary optimisation</li>
+    <li>Model approximation in dynamic, robust and multi-modal optimisation</li>
+    <li>Model approximation in multi- and many-objective optimisation</li>
+    <li>Surrogate-assisted evolutionary optimisation of high-dimensional problems</li>
+    <li>Comparison of different modelling methods in surrogate construction</li>
+    <li>Surrogate-assisted identification of the feasible region</li>
+    <li>Comparison of evolutionary and non-evolutionary approaches with surrogate models</li>
+    <li>Test problems for surrogate-assisted evolutionary optimisation</li>
+    <li>Performance improvement techniques in surrogate-assisted evolutionary computation</li>
+    <li>Performance assessment of surrogate-assisted evolutionary algorithms</li>
+</ul>
+<div style="background-color: #f1f8fa; padding: 10px; border-radius: 6px;">
+    <p>Your text here</p>
+</div>
+
 
 ## The call for involvement
 
