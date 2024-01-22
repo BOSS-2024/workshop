@@ -34,7 +34,7 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="javascript:void(0);" onclick="loadMarkdown( site.github.organisers_url)">About the <strong>Organisers</strong></a></li> 
+          <li><a href="javascript:void(0);" onclick="loadMarkdown( {{site.github.organisers_url}})">About the <strong>Organisers</strong></a></li> 
           <li><a href="{{ "/call.md" }}">Call for <strong>Papers</strong></a></li> 
           <li><a href="{{ site.github.ppsn_url }}">Link to <strong>PPSN</strong></a></li>
         </ul>
