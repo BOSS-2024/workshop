@@ -46,7 +46,9 @@ We also welcome proposals for short demonstrations or presentations (5-10 minute
 * Other relevant accepted PPSN papers or recent journal papers
 * For detailed information on the forthcoming workshop and the submission process, please see: Call for Papers
 
+<a href="./call.md">Find out more here</a>
+
 ### Contact
 
 Enquiries and Suggestions
-If you have any enquiries or suggestions about BOSS, please send us an email.
+If you have any enquiries or suggestions about BOSS, please send us an email p dot u dot kent @exeter.ac.uk
