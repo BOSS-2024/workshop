@@ -21,6 +21,8 @@ Despite recent successes in using surrogate-assisted evolutionary optimisation, 
 * Performance improvement techniques in surrogate-assisted evolutionary computation
 * Performance assessment of surrogate-assisted evolutionary algorithms
 
+## The call for involvement
+
 We invite short papers of up to 8 pages (excluding references) presenting novel developments in one or more of these areas, or other areas relevant to surrogate-assisted evolutionary optimisation. We welcome position papers of up to 2 pages (including references) showcasing exciting exploratory and preliminary results.
 
 We also welcome proposals for short demonstrations or presentations (5-10 minutes) on the following topics:
@@ -29,6 +31,8 @@ We also welcome proposals for short demonstrations or presentations (5-10 minute
 * Contemporary test problems in surrogate-assisted optimisation
 * Other relevant accepted PPSN papers or recent journal papers
 * For detailed information on the forthcoming workshop and the submission process, please see: Call for Papers
+
+### Contact
 
 Enquiries and Suggestions
 If you have any enquiries or suggestions about BOSS, please send us an email.
