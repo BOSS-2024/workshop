@@ -5,6 +5,7 @@ Bayesian Optimisation, and Surrogate-assisted approaches more generally, have be
 
 Despite recent successes in using surrogate-assisted evolutionary optimisation, there remain many challenges. The Workshop on Bayesian and surrOgate aSsisted Search and Optimisation (BOSS) to be held at PPSN 2024 in Hagenberg, Austria, aims to promote the research on Bayesian Optimisation and surrogate-assisted optimisation, particularly those that take inspiration from nature. Topics of interest include (but are not limited to):
 
+```
 * Bayesian optimisation.
 * Advanced machine learning techniques for constructing surrogates
 * Model management in surrogate-assisted optimisation
@@ -20,6 +21,7 @@ Despite recent successes in using surrogate-assisted evolutionary optimisation, 
 * Test problems for surrogate-assisted evolutionary optimisation
 * Performance improvement techniques in surrogate-assisted evolutionary computation
 * Performance assessment of surrogate-assisted evolutionary algorithms
+```
 
 ## The call for involvement
 
