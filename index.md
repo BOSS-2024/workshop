@@ -51,4 +51,5 @@ We also welcome proposals for short demonstrations or presentations (5-10 minute
 ### Contact
 
 Enquiries and Suggestions
-If you have any enquiries or suggestions about BOSS, please send us an email p dot u dot kent @exeter.ac.uk
+If you have any enquiries or suggestions about BOSS, please send us an email:
+p.u.kent @ exeter.ac.uk
