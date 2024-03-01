@@ -4,8 +4,6 @@
 #
 ### Bayesian and surrOgate-aSsisted Search and optimisation
 
-This is the project website for a proposed workshop for the 2024 Parallel Problem Solving from Nature conference in Austria 2024 https://ppsn2024.fh-ooe.at/
-
-
+This is the project website for a workshop at the 2024 Parallel Problem Solving from Nature conference in Austria 2024 https://ppsn2024.fh-ooe.at/
 
 This site is very much in development, but built on the minimalist theme https://github.com/pages-themes/minimal
